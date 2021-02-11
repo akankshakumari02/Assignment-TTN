@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 12</title>
+  <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+      <div class="navbar">
+        <div class="nav-brand">
+          <h1>TO THE NEW</h1>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quick Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <hr>
+
+    <div id="form1">
+      <div class="form">
+        <div class="title">
+          <h3>Bug Report</h3>
+        </div>
+        <form action="">
+          <div class="form2">
+            <label for="title">Title:*</label>
+            <input type="text" id="title" name="title">
+          </div>
+
+          <div class="form2">
+            <label for="description">Description:*</label>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="form2">
+            <label for="os">Operating System:</label>
+            <select name="os" id="os">
+              <option value="Windows xp">Windows XP</option>
+              <option value="Windows 10">Windows 10</option>
+              <option value="Linux">Linux</option>
+              <option value="Mac">Mac OS</option>
+            </select>
+          </div>
+
+          <div class="form2">
+            <label for="product">Product:</label>
+            <select name="product" id="product">
+              <option value="formoid">Formoid</option>
+              <option value="pc">PC</option>
+            </select>
+          </div>
+
+          <div class="form2">
+            <label for="version">Version:*</label>
+            <input type="text" id="version" name="version">
+          </div>
+
+          <div class="form2">
+            <label for="license">License:</label>
+            <div class="radios">
+              <div class="option-1">
+                <input type="radio" id="free" name="license" value="free">
+                <label for="free">Free</label>
+              </div>
+              <div class="option-2">
+                <input type="radio" id="business" name="license" value="business">
+                <label for="business">Business</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form2">
+            <label for="severity">Severity:</label>
+            <select name="severity" id="severity">
+              <option value="critical">Critical</option>
+              <option value="medium">Major with low impact</option>
+              <option value="low">Minor</option>
+            </select>
+          </div>
+
+          <div class="form2 label">
+            <label for="attachments">Attachments:</label>
+          </div>
+          <div class="form2 attach">
+            <div class="btn">Choose File</div>
+            <input type="file" class="file-input" name="file">
+            <div class="file-txt">No file selected</div>
+          </div>
+
+          <div class="submit-bg">
+            <div class="form2 submit-btn">
+              <input type="submit" value="Send"></input>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+   </div>
+
+</body>
+</html>
